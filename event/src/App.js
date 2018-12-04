@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  clickHandler = () => {console.log("clicked!")}
+  clickHandler = (e) => {console.log(e.target.value)}
   render() {
     return (
       <div className="App">
         <h2>Event</h2>
-        <button onClick={this.clickHandler}>Click me!</button>
+        <input onChange={this.clickHandler}/>
       </div>
     );
   }
