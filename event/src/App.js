@@ -1,11 +1,10 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 class App extends Component {
   state = {
-    counter: this.props.initVal
-  };
+    counter: 0
+  }
   inputHandler = e => {
     console.log(e.target.value);
   };
@@ -19,6 +18,8 @@ class App extends Component {
       <div className="App">
         <h2>Event</h2>
         <input onChange={this.inputHandler} />
+        <br/>
+        <h2>Button incrementor</h2>
         <button onClick={this.clickHandler}>click to increment</button>
         <p>{this.state.counter}</p>
       </div>
