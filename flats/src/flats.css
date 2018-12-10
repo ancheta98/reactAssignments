@@ -1,0 +1,19 @@
+.card {
+  width: 45%;
+  border: 1px black solid;
+  padding: 1%;
+  margin: 2%;
+  box-shadow: 5px 5px gray;
+  background: lightgray;
+  align-content: center;
+}
+.card:hover {
+  background: white;
+}
+.card img {
+  width: 75%;
+}
+.card a{
+    display: block;
+    padding: 5px;
+}
