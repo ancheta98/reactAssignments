@@ -1,3 +1,3 @@
 # Practice with components
 
-![(person component example)](../assets/person.png)
+![(person component example)](../assets/persons.png)
