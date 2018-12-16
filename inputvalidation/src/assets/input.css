@@ -1,0 +1,12 @@
+input {
+    border: none;
+    background: none;
+    border-bottom: black solid 1px; 
+}
+input:hover{
+    border: none;
+    background: whitesmoke;
+    border-bottom: gold solid 1px;
+    font-family: wingdings;
+    color: grey;
+}
