@@ -16,11 +16,7 @@ class App extends Component {
     (this.state.input.length > 4) ? this.setState({tooLong:true}) : this.setState({tooLong:false});
     console.log(this.state.tooLong);
   }
-  // componentDidUpdate = (prevState,nextState) =>{
-  //   (this.state.input.length > 5) ? this.setState({tooLong:false}) : this.setState({tooLong:false})
-  //   console.log(this.state.tooLong)
-  // }
-
+  
   render() {
     return (
       <div className="App">
