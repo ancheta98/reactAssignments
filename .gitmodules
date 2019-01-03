@@ -1,0 +1,3 @@
+[submodule ".\\advancedrendering\\"]
+	path = .\\advancedrendering\\
+	url = https://github.com/ancheta98/reactAssignments
