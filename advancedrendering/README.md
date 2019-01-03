@@ -1,2 +1,2 @@
 # Simple example of advanced rendering
-![(event example)](../assets/event.png)
+![(event example)](../assets/advRendering.png)
